@@ -1,6 +1,7 @@
 # Openapi example
 
-This example show how you can use MicroProfile OpenAPI on Quarkus with JAX-RS, Spring Web, Vert.x Routes or all 3 !
+This example show how you can use [MicroProfile OpenAPI](https://github.com/eclipse/microprofile-open-api) on [Quarkus](https://quarkus.io/) 
+with [JAX-RS](https://resteasy.github.io/), [Spring Web](https://quarkus.io/guides/spring-web), [Vert.x Routes](https://quarkus.io/guides/reactive-routes) or all 3 !
 
 ![resteasy](resteasy.png)
 ![spring](spring.png)
@@ -11,6 +12,13 @@ We also show how to use MicroProfile config to configure:
 * Header information (rather than using Annotations in a `Application` class)
 * Changing the default (3.0.3) OpenAPI version.
 * Auto-generate operationId from the method.
+
+Also see:
+
+* https://quarkus.io/guides/rest-json
+* https://quarkus.io/guides/openapi-swaggerui
+* https://quarkus.io/guides/spring-web
+* https://quarkus.io/guides/reactive-routes
 
 ## Running the application in dev mode
 
