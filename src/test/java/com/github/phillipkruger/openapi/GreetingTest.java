@@ -4,7 +4,7 @@ import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.containsString;
 
 @QuarkusTest
 public class GreetingTest {
@@ -15,7 +15,7 @@ public class GreetingTest {
           .when().get("/jax-rs/hello")
           .then()
              .statusCode(200)
-             .body(is("hello JAX-RS"));
+             .body(containsString("Hello"),containsString("JAX-RS"));
     }
 
     @Test
@@ -24,7 +24,7 @@ public class GreetingTest {
           .when().get("/spring/hello")
           .then()
              .statusCode(200)
-             .body(is("hello Spring"));
+             .body(containsString("Hello"),containsString("Spring"));
     }
     
     @Test
@@ -33,7 +33,7 @@ public class GreetingTest {
           .when().get("/vertx/hello")
           .then()
              .statusCode(200)
-             .body(is("hello Vert.x"));
+             .body(containsString("Hello"),containsString("Vert.x"));
     }
     
     @Test
@@ -42,6 +42,6 @@ public class GreetingTest {
           .when().get("/other/hello")
           .then()
              .statusCode(200)
-             .body(is("hello Other"));
+             .body(containsString("Hello"),containsString("Other"));
     }
 }
