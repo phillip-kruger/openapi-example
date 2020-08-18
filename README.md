@@ -1,10 +1,22 @@
-# openapi-example project
+# Openapi example
+
+This example show how you can use MicroProfile OpenAPI on Quarkus with JAX-RS, Spring Web, Vert.x Routes or all 3 !
+
+![resteasy](resteasy.png)
+![spring](spring.png)
+![vertx](vertx.png)
+
+We also show how to use MicroProfile config to configure:
+
+* Header information (rather than using Annotations in a `Application` class)
+* Changing the default (3.0.3) OpenAPI version.
+* Auto-generate operationId from the method.
+
+## Running the application in dev mode
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
-
-## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
 ```
