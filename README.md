@@ -3,7 +3,11 @@
 This example show how you can use [MicroProfile OpenAPI](https://github.com/eclipse/microprofile-open-api) on [Quarkus](https://quarkus.io/) 
 with [JAX-RS](https://resteasy.github.io/), [Spring Web](https://quarkus.io/guides/spring-web), [Vert.x Routes](https://quarkus.io/guides/reactive-routes) or all 3 !
 
-|![resteasy](resteasy.png)|![spring](spring.png)|![vertx](vertx.png)|
+![resteasy](resteasy.png)
+
+![spring](spring.png)
+
+![vertx](vertx.png)|
 
 We also show how to use MicroProfile config to configure:
 
