@@ -19,6 +19,8 @@ Also see:
 * https://quarkus.io/guides/reactive-routes
 * https://quarkus.io/guides/rest-data-panache
 
+![swagger-ui](swagger-ui.png)
+
 ## Running the application in dev mode
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
