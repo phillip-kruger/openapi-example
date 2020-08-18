@@ -16,3 +16,33 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Greeting'
+    post:
+      tags:
+      - Other Resource
+      operationId: newHelloOther
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Greeting'
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Greeting'
+  /other/hello/{message}:
+    delete:
+      tags:
+      - Other Resource
+      operationId: deleteHelloOther
+      parameters:
+      - name: message
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        "204":
+          description: No Content
