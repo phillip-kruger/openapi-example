@@ -35,4 +35,13 @@ public class GreetingTest {
              .statusCode(200)
              .body(is("hello Vert.x"));
     }
+    
+    @Test
+    public void testOtherEndpoint() {
+        given()
+          .when().get("/other/hello")
+          .then()
+             .statusCode(200)
+             .body(is("hello Other"));
+    }
 }

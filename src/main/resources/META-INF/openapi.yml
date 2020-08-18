@@ -1,0 +1,18 @@
+---
+openapi: 3.0.1
+tags:
+- name: Other Resource
+  description: Basic Hello World using Something else
+paths:
+  /other/hello:
+    get:
+      tags:
+      - Other Resource
+      operationId: helloOther
+      responses:
+        "200":
+          description: OK
+          content:
+            text/plain:
+              schema:
+                type: string
