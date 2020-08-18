@@ -19,6 +19,7 @@ Also see:
 * https://quarkus.io/guides/openapi-swaggerui
 * https://quarkus.io/guides/spring-web
 * https://quarkus.io/guides/reactive-routes
+* https://quarkus.io/guides/rest-data-panache
 
 ## Running the application in dev mode
 
