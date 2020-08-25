@@ -104,6 +104,25 @@
     
     <build>
         <plugins>
+            
+        <!-- This is not released yet...
+            <plugin>
+                <groupId>io.smallrye</groupId>
+                <artifactId>smallrye-open-api-maven-plugin</artifactId>
+                <version>2.1.0-SNAPSHOT</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate-schema</goal>
+                        </goals>
+                        <configuration>
+                            <infoTitle>Generated from Maven</infoTitle>
+                            <servers>localhost:8080, www.production.com</servers>
+                            <configProperties>${basedir}/src/main/resources/application.properties</configProperties>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>-->
             <plugin>
                 <groupId>io.quarkus</groupId>
                 <artifactId>quarkus-maven-plugin</artifactId>
