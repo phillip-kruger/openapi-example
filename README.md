@@ -7,7 +7,7 @@ with [JAX-RS](https://resteasy.github.io/), [Spring Web](https://quarkus.io/guid
 
 We also show how to use MicroProfile config to configure:
 
-* Header information (rather than using Annotations in a `Application` class)
+* Header information (rather than using Annotations in a `Application` class).
 * Changing the default (3.0.3) OpenAPI version.
 * Auto-generate operationId from the method.
 
