@@ -11,6 +11,8 @@ We also show how to use MicroProfile config to configure:
 * Changing the default (3.0.3) OpenAPI version.
 * Auto-generate operationId from the method.
 
+See the Running Example here: http://openapi-example.phillip-kruger.com
+
 Also see:
 
 * https://quarkus.io/guides/rest-json
