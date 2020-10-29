@@ -4,9 +4,9 @@
             <actionName>CUSTOM-dev</actionName>
             <displayName>dev</displayName>
             <goals>
-                <goal>clean</goal>
-                <goal>install</goal>
                 <goal>quarkus:dev</goal>
+                
+                
             </goals>
         </action>
         <action>
