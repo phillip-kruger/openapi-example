@@ -27,3 +27,7 @@ body{
     font-size:70%;
     text-align: center;
 }
+
+.bg-dark {
+    background-color: #0033a1 !important;
+}
