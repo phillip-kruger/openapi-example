@@ -13,21 +13,21 @@ html{
 
 body{
     margin:0;
-    background: whitesmoke;
+    background: white;
 }
 
 .swagger-ui .topbar {
-    background-color: #0033a1;
+    background-color: whitesmoke;
 }
 
 #footer {
-    background-color: #0033a1;
+    background-color: whitesmoke;
     font-family:sans-serif;
-    color:white;
+    color:#4da32c;
     font-size:70%;
     text-align: center;
 }
 
 .bg-dark {
-    background-color: #0033a1 !important;
+    background-color: whitesmoke !important;
 }
