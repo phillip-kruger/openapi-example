@@ -5,7 +5,10 @@ with [JAX-RS](https://resteasy.github.io/), [Spring Web](https://quarkus.io/guid
 
 ![logos](logos.png)
 
-* Read the blog post here: https://quarkus.io/blog/openapi-for-everyone/
+### Read the blog posts 
+
+* https://quarkus.io/blog/openapi-for-everyone/
+* https://quarkus.io/blog/stylish-api/
 
 We also show how to use MicroProfile config to configure:
 
