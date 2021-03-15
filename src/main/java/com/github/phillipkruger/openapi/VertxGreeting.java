@@ -25,7 +25,7 @@ public class VertxGreeting {
     }
     
     @Route(path = "/hello/:message", methods = HttpMethod.DELETE)
-    public void deleteHelloVertX(@Param("message") String message) {
-
+    public boolean deleteHelloVertX(@Param("message") String message) {
+        return true;
     }
 }
